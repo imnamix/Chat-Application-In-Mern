@@ -1,81 +1,25 @@
+# MERN Chat Application
 
-# Talk-A-Tive
+This is a simple chat application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. Users can sign up, log in, and chat with each other in real-time.
 
-Talk-a-tive is a Full Stack Chatting App.
-Uses Socket.io for real time communication and stores user details in encrypted format in Mongo DB Database.
-## Tech Stack
+## Features
 
-**Client:** React JS
+- User authentication: Users can sign up, log in, and log out.
+- Real-time messaging: Users can send and receive messages in real-time.
+- Responsive design: The application is designed to work well on both desktop and mobile devices.
 
-**Server:** Node JS, Express JS
+## Technologies Used
 
-**Database:** Mongo DB
-  
-## Demo
+- MongoDB: NoSQL database for storing user data and chat messages.
+- Express.js: Web application framework for Node.js used for building the backend API.
+- React.js: JavaScript library for building user interfaces.
+- Node.js: JavaScript runtime environment for running the backend server.
+- Socket.IO: Library for real-time bidirectional event-based communication.
 
-[https://talk-a-tive.herokuapp.com/](https://talk-a-tive-7fgq.onrender.com)
+## Getting Started
 
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
-## Run Locally
+### Prerequisites
 
-Clone the project
+- Node.js installed on your machine
+- MongoDB installed and running locally or a connection to a MongoDB Atlas cluster
 
-```bash
-  git clone https://github.com/piyush-eon/mern-chat-app
-```
-
-Go to the project directory
-
-```bash
-  cd mern-chat-app
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-```bash
-  cd frontend/
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-```
-Start the Client
-
-```bash
-  //open now terminal
-  cd frontend
-  npm start
-```
-
-  
-# Features
-
-### Authenticaton
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/login.PNG)
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/signup.PNG)
-### Real Time Chatting with Typing indicators
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/real-time.PNG)
-### One to One chat
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/mainscreen.PNG)
-### Search Users
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/search.PNG)
-### Create Group Chats
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/new%20grp.PNG)
-### Notifications 
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
-### Add or Remove users from group
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/add%20rem.PNG)
-### View Other user Profile
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/profile.PNG)
-## Made By
-
-- [@Piyush-eon](https://github.com/piyush-eon)
-
-  
