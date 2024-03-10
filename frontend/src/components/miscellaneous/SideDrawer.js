@@ -139,7 +139,7 @@ function SideDrawer() {
         </Tooltip>
         <Text fontSize="2xl" fontFamily="Work sans" fontWeight='bold' >
     
-          JK-Messenger
+          Jk-Messenger
         </Text>
         <div>
           <Menu>
